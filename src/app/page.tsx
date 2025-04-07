@@ -1,6 +1,6 @@
 "use client";
 
-import { SiGithub, SiX } from "@icons-pack/react-simple-icons";
+import { SiBluesky, SiGithub, SiX } from "@icons-pack/react-simple-icons";
 import { IOptions, RecursivePartial } from "@tsparticles/engine";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -223,6 +223,13 @@ export default function Page() {
             aria-label="Twitter/X"
           >
             <SiX width={24} height={24} />
+          </Link>
+          <Link
+            href="https://bsky.app/profile/nexirift.com"
+            className="transition-transform duration-300 hover:scale-110 active:scale-95"
+            aria-label="Bluesky"
+          >
+            <SiBluesky width={24} height={24} />
           </Link>
         </div>
       </div>
