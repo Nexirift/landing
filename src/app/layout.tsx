@@ -17,7 +17,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "Nexirift",
   description:
-    "Nexirift is an upcoming social media platform built for the users, by the users.",
+    "Nexirift is a social media platform designed for the community, built by its users.",
 };
 
 export default function RootLayout({
