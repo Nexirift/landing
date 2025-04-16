@@ -201,12 +201,12 @@ export default function Page() {
           alt="Nexirift Logo"
           priority
         />
-        <h1 className="text-3xl font-bold">Coming 2027</h1>
+        <h1 className="text-3xl font-bold">Coming 2028</h1>
         <p className="text-lg font-light mb-8">
           This is not a final release date.
         </p>
         <Countdown
-          date={new Date("2027-01-01T00:00:00.000Z")}
+          date={new Date("2028-01-01T00:00:00.000Z")}
           renderer={renderer}
         />
         <div className="flex flex-row gap-8 pt-10">
