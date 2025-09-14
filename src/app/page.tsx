@@ -202,14 +202,15 @@ export default function Page() {
           priority
         />
         <h1 className="text-3xl font-bold">Coming 2028</h1>
-        <p className="text-lg font-light mb-8">
+        {/*<p className="text-lg font-light mb-8">
           This is not a final release date.
         </p>
         <Countdown
           date={new Date("2028-01-01T00:00:00.000Z")}
           renderer={renderer}
-        />
-        <div className="flex flex-row gap-8 pt-10">
+        />*/}
+        <p className="text-lg font-light mb-8">Maybe one day.</p>
+        {/*<div className="flex flex-row gap-8 pt-10">
           <Link
             href="https://github.com/Nexirift"
             className="transition-transform duration-300 hover:scale-110 active:scale-95"
@@ -231,7 +232,7 @@ export default function Page() {
           >
             <SiBluesky width={24} height={24} />
           </Link>
-        </div>
+        </div>*/}
       </div>
     </>
   );
