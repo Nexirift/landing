@@ -1,13 +1,13 @@
 "use client";
 
-import { SiBluesky, SiGithub, SiX } from "@icons-pack/react-simple-icons";
+// import { SiBluesky, SiGithub, SiX } from "@icons-pack/react-simple-icons";
 import { IOptions, RecursivePartial } from "@tsparticles/engine";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import { useEffect, useState } from "react";
-import Countdown from "react-countdown";
+// import Countdown from "react-countdown";
 
 const PARTICLES_CONFIG: RecursivePartial<IOptions> = {
   autoPlay: true,
@@ -201,15 +201,15 @@ export default function Page() {
           alt="Nexirift Logo"
           priority
         />
-        <h1 className="text-3xl font-bold">Coming 2028</h1>
-        {/*<p className="text-lg font-light mb-8">
+        {/*<h1 className="text-3xl font-bold">Coming 2028</h1>
+        <p className="text-lg font-light mb-8">
           This is not a final release date.
         </p>
         <Countdown
           date={new Date("2028-01-01T00:00:00.000Z")}
           renderer={renderer}
         />*/}
-        <p className="text-lg font-light mb-8">Maybe one day.</p>
+        <h1 className="text-3xl font-bold">Maybe one day.</h1>
         {/*<div className="flex flex-row gap-8 pt-10">
           <Link
             href="https://github.com/Nexirift"
